@@ -80,9 +80,7 @@
                 <li>{{ __('Roles') }}</li>
                 <li>{{ __('Permission over route by user role - Configurable') }}</li>
                 <li>{{ __('Contact Section') }}</li>
-                <li>{{ __('Grabber for google js for pagespeed insights - No more external call on page load (just a cron job that grabbs the file daily)') }}</li>
                 <li>{{ __('Google Analytics code') }}</li>
-                <li>{{ __('Grabber for facebook js for pagespeed insights - No more external call on page load (just a cron job that grabbs the file daily)') }}</li>
                 <li>{{ __('Facebook pixel code') }}</li>
                 <li>{{ __('Config section with system configs and ability to add extra') }}</li>
                 <li>{{ __('Automatic installation of framework with one shell command that takes about ~5 seconds to process') }}</li>
