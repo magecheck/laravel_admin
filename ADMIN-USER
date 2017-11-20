@@ -1,0 +1,20 @@
+url: yourURL.lh/login
+user: admin / victorchiriac89@gmail.com
+pass: password
+
+NOW IT IS SET WITH "email login" if you want to have it with username go to:
+
+app/Http/Controllers/Auth/LoginController.php 
+line 47
+
+change this:
+public function username()
+{
+    return 'email';
+}
+
+to this:
+public function username()
+{
+    return 'username';
+}

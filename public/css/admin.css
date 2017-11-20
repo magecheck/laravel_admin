@@ -1,0 +1,95 @@
+.alert{margin:5px;padding:10px}
+.align-r{text-align:right}
+.align-l{text-align:left}
+.align-c{text-align:center}
+.clearfix{content:' ';clear:both;width:0;height:0;font-size:0;display:block}
+.border-box{box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}
+.float-l{float:left}
+.float-r{float:right}
+.align-r{text-align:right}
+.align-l{text-align:left}
+.align-c{text-align:center}
+.bold{font-weight:600}
+.bolder{font-weight:700}
+.bg-gray{background:#DBDDDC}
+.italic{font-style:italic}
+.table{margin-top:10px;border:5px ridge #ccc}
+.btn-warning{margin-top:5px}
+.guideline{padding:10px}
+nav li .glyphicon{padding:18px 0;line-height:1em;margin:0 5px}
+nav li .glyphicon a{color:#000;text-decoration:none;padding:5px;color:#000;font-weight:500}
+nav li .glyphicon a:hover{text-decoration:none;color:#000}
+.navbar-brand{padding:5px;background:#fff !important}
+.navbar-brand img{height:40px}
+.tab-content .nav>li>a{border-radius:20px;padding:5px 10px;font-weight:400;color:#265a88}
+.tab-content .nav-pills>li.active>a,.tab-content .nav-pills>li.active>a:focus,.tab-content .nav-pills>li.active>a:hover{background:#099;font-weight:600;color:#ddd;padding:5px 10px}
+.navbar-right li.active{color:#139fdc}
+.glyphicon a{color:#fff;text-decoration:none;padding:3px;font-weight:600}
+#administrate tbody td,
+#roles tbody td,
+#groups tbody td{font-size:0.9em;vertical-align:middle}
+#administrate tbody td button,
+#roles tbody td button,
+#groups tbody td button{margin-right:5px}
+.column-id{max-width:50px}
+.column-name{max-width:60px}
+.column-group{max-width:80px}
+.column-status{min-width:95px}
+.column-role_id{max-width:80px}
+.column-user{max-width:70px}
+.column-email{max-width:110px}
+.column-leader_id{max-width:80px}
+.column-created_at{max-width:90px}
+.column-updated_at{max-width:90px}
+.notification{color:#0C0;font-size:0.8em;padding:5px}
+.glyphicon a{line-height:1em;padding:5px;vertical-align:middle;font-weight:600}
+hr{margin:5px 0}
+.tab-pane .alert{margin:5px 0;padding:5px 15px}
+.permission-panel td:last-child,
+.permission-panel th:last-child{text-align:center}
+.permission-panel input[type="checkbox"]{padding:10px}
+.permission-panel input[type="radio"]{padding:10px}
+.btn{padding:0}
+.container .btn.btn-sample-upload{margin:5px;padding:4px}
+.btn-export .btn{padding:6px}
+.container thead .column-action .btn{padding:6px !important}
+.container .btn{margin-bottom:10px}
+.container .btn-operation{padding:3px;margin:0}
+.container .btn .glyphicon{padding:0 5px}
+.container .btn .glyphicon-export{position:relative;top:3px;right:2px;padding:0}
+.container .btn .glyphicon-upload{position:relative;top:5px}
+.container .btn .glyphicon:before{position:relative;left:2px;bottom:3px}
+.container .btn .glyphicon a{padding:6px !important;display:inline-block;line-height:1em;position:relative;bottom:3px}
+.btn-register,.btn-update{padding:6px;text-decoration:none}
+.account-panel #details table tr td:first-child{background:#ccc;color:#fff;font-weight:600}
+.account-panel .btn-register{font-size:1em}
+.members td{border-bottom:3px solid #ddd;padding:10px 0}
+table th{font-size:13px}
+.btn-sample{padding:6px 6px 6px 0;margin-right:6px}
+.btn-sample .glyphicon-download-alt{position:relative;left:2px;top:3px}
+.nav li.dropdown a{color:#000;height:40px;line-height:20px;margin:0;padding-right:10px;padding-top:18px}
+.navbar-nav>li>.dropdown-menu{min-width:69px;margin:0;text-align:center;height:35px;padding:7px}
+.navbar-nav>li>.dropdown-menu li a{line-height:20px;height:20px;padding:0;margin:0;display:block;min-height:40px}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background:transparent}
+.navbar-nav>li>a{padding:18px 10px 12px;color:#fff !important;font-size:14px;font-weight:700}
+.navbar-nav>li.active>a{color:#000 !important}
+.logo-img{max-width:50px;text-align:center}
+.panel form{padding:10px 5px}
+.alert-top{display:block;margin:10px}
+.col>.panel-default>.panel{padding:5px}
+.navbar-default{background:#2d2c2c}
+h2{padding:5px;font-size:1.2em}
+textarea{width:100%;min-height:100px;border:2px solid #000;resize:none}
+.view-paper{margin-right:10px}
+.footer{font-size:14px}
+.group-pick > div:not(.align-r):not(.align-l){text-align:center;margin-top:20px}
+.group-pick img{width:80%;height:100px}
+.group-pick .active{border:2px solid #5cb85c;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+.group-pick .align-l{margin:5px;padding:5px;float:left}
+.navbar { border: 0; border-radius: 0}
+html, body { height: 100%}
+body{background-size:cover}
+a.btn{padding:3px 5px 3px 2px;margin-right:5px;font-weight:600}
+a.btn .glyphicon{top:4px}
+.panel-configs .column-id,
+.panel-configs .column-name{max-width:initial}

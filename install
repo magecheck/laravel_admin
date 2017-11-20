@@ -1,0 +1,72 @@
+<?php
+
+if(!file_exists ('.env')){
+    echo 'The .env file does not exist ...'.PHP_EOL.PHP_EOL;
+    
+    shell_exec('cp .env.example .env');
+    echo 'The .env file has been created !'.PHP_EOL.PHP_EOL;
+    
+    die('Please complete the details inside it ...'.PHP_EOL);
+}
+
+echo PHP_EOL.'Checking database connection ...'.PHP_EOL.PHP_EOL;
+
+// Getting env rows
+$rows = explode("\n", file_get_contents('.env'));
+
+$host       = substr($rows[7], 8);
+$port       = substr($rows[8], 8);
+$database   = substr($rows[9], 12);
+$username   = substr($rows[10], 12);
+$password   = substr($rows[11], 12);
+
+$conn = mysqli_connect($host, $username, $password);
+
+// Check connection
+if (!$conn) {
+    die('Connection failed: ' . mysqli_connect_error());
+}
+echo 'Connected successfully!'.PHP_EOL.PHP_EOL;
+
+
+echo 'Checking if database exists ...'.PHP_EOL.PHP_EOL;
+
+
+$connDB = mysqli_connect($host, $username, $password);
+
+// Check connection with db
+if ($connDB) {
+    try{
+        $db = mysqli_select_db($connDB,$database);
+        // Check if db exists
+        if($db){
+            // Delete former db
+            echo 'Deleting database ...'.PHP_EOL.PHP_EOL;
+            $drop = $conn->query('DROP DATABASE '.$database.';');
+
+            if(!$drop) {
+                die('Could not delete database '.$database.': ' . mysqli_error());
+            }
+        }
+    } catch (Exception $ex) { }
+    
+    // Recreate / Create database
+    echo 'Creating database ...'.PHP_EOL.PHP_EOL;
+    $create = $conn->query('CREATE DATABASE '.$database.';');
+    if(!$create) {
+        die('Could not create database '.$database.': ' . mysqli_error());
+    }
+}
+
+echo 'Installing all requirements ...'.PHP_EOL.PHP_EOL;
+
+echo shell_exec('php artisan migrate').PHP_EOL;
+
+echo 'Adding data into tables ...'.PHP_EOL.PHP_EOL;
+
+shell_exec('php artisan db:seed');
+
+echo 'Artisan optimize ...'.PHP_EOL;
+echo shell_exec('php artisan optimize').PHP_EOL.PHP_EOL;
+
+echo 'Finish!'.PHP_EOL.PHP_EOL;
