@@ -56,7 +56,10 @@
             </script>
             <!-- END GOOGLE ANALYTICS CODE -->
         <?php endif; ?>
-            
+        
+        <!-- Styles -->    
+        <link rel="stylesheet" href="{{ URL::asset('bootstrap/dist/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
     </head>
     <body>
         {{ csrf_field() }}
@@ -91,12 +94,8 @@
         
         <!-- Scripts -->
         <script async src="{{ URL::asset('js/analytics.js') }}"></script>
-        <!-- Styles -->
-        
         <script type="text/javascript" src="{{ URL::asset('js/jquery-1.12.4.min.js') }}"></script>
         <script type="text/javascript" src="{{ URL::asset('bootstrap/dist/js/bootstrap.min.js') }}"></script>
         <script type="text/javascript" src="{{ URL::asset('js/script.js') }}"></script>
-        <link rel="stylesheet" href="{{ URL::asset('bootstrap/dist/css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
     </body>
 </html>
