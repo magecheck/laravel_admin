@@ -34,6 +34,10 @@ Laravel Admin 5.4.15 with:
 > Automatic installation of framework with one shell command that takes about ~5 seconds to process
 
 
+## Live demo
+
+[Laravel Mage Check Demo](https://www.laravel.magecheck.com/)
+
 ## Installation
 
 Download the code locally either with download or clone.
