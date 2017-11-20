@@ -21,11 +21,7 @@ Laravel Admin 5.4.15 with:
 
 > Contact Section
 
-> Grabber for google js for pagespeed insights - No more external call on page load (just a cron job that grabbs the file daily)
-
 > Google Analytics code
-
-> Grabber for facebook js for pagespeed insights - No more external call on page load (just a cron job that grabbs the file daily)
 
 > Facebook pixel code
 
