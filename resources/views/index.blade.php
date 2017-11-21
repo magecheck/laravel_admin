@@ -91,6 +91,7 @@
             <div class="panel-heading text-center"></div>
         </div>
         @include('contact.form')
+        @include('pagespeed.index')
         @include('footer')
         
         <!-- Scripts -->
