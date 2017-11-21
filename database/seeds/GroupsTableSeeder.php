@@ -13,7 +13,7 @@ class GroupsTableSeeder extends Seeder
     {
         DB::table('groups')->insert([
             [
-                'name' => "Head",
+                'name' => "Administrator",
                 'leader_id' => "1",
                 'logo' => "logo/groups/head/logo.png",
                 'background' => "background/groups/head/background.jpg"
