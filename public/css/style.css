@@ -75,6 +75,7 @@ a{text-decoration:none}
 .clearfix{clear:both;content:"";font-size:0;height:0;width:0}
 .top-container h1{text-align:center;font-size:2em;font-weight:600}
 .top-container h2{text-align:center;font-size:1.5em;font-weight:600}
+form{margin-bottom:45px}
 form .field{margin:0 0 18px}
 form .field label{color:#ed6f2a;font-size:1em;margin-bottom:0;font-weight:600}
 input[type="text"],input[type="password"],input[type="url"],input[type="tel"],input[type="search"],input[type="number"],input[type="datetime"],input[type="email"]{background:#fff;background-clip:padding-box;border:1px solid #c2c2c2;border-radius:1px;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;height:32px;line-height:1.42857143;padding:0 9px;vertical-align:baseline;width:100%;box-sizing:border-box}

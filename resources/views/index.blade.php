@@ -65,9 +65,10 @@
         {{ csrf_field() }}
         <!-- Content Here -->
         <div class="container">
-            <div class="col-md-4"><h1 class="text-center">{{ __('Laravel Admin with:') }}</h1></div>
-            <div class="col-md-4"><a href="https://github.com/magecheck/laravel_admin" target="_blank" rel="noreferrer" class=" text-primary text-center"><h2>{{ __('GitHub Link') }}</h2></a></div>
-            <div class="col-md-4"><a href="/admin/dashboard" class=" text-primary text-center"><h2>{{ __('Admin login') }}</h2></a></div>
+            <div class="col-md-4 col-sm-12 pull-right"><a href="/admin/dashboard" class=" text-primary text-center"><h2>{{ __('Admin login') }}</h2></a></div>
+            <div class="col-md-4 col-sm-12 pull-right"><a href="https://github.com/magecheck/laravel_admin" target="_blank" rel="noreferrer" class=" text-primary text-center"><h2>{{ __('GitHub Link') }}</h2></a></div>
+            <div class="col-md-4 col-sm-12 pull-right"><h1 class="text-center">{{ __('Laravel Admin with:') }}</h1></div>
+            
             <div class="clearfix"></div>
             <ul>
                 <li>{{ __('Bootstrap 3.3.4') }}</li>
