@@ -66,7 +66,7 @@
         <!-- Content Here -->
         <div class="container">
             <div class="col-md-4"><h1 class="text-center">{{ __('Laravel Admin with:') }}</h1></div>
-            <div class="col-md-4"><a href="https://github.com/victorchiriac89/laravel_admin" target="_blank" rel="noreferrer" class=" text-primary text-center"><h2>{{ __('GitHub Link') }}</h2></a></div>
+            <div class="col-md-4"><a href="https://github.com/magecheck/laravel_admin" target="_blank" rel="noreferrer" class=" text-primary text-center"><h2>{{ __('GitHub Link') }}</h2></a></div>
             <div class="col-md-4"><a href="/admin/dashboard" class=" text-primary text-center"><h2>{{ __('Admin login') }}</h2></a></div>
             <div class="clearfix"></div>
             <ul>
