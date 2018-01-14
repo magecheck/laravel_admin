@@ -24,6 +24,7 @@
     td.column-message:before{content:"Message"}
     td.column-value:before{content:"Value"}
     td.column-material_description:before{content:"Description"}
+    td.column-background:before{content:"Background"}
     td.column-id:before{content:"Id"}
     td.column-created_at:before{content:"Created"}
     td.column-updated_at:before{content:"Updated"}
