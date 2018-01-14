@@ -1,0 +1,86 @@
+@media (max-width:768px) {
+    /* Force table to not be like tables anymore */
+    table{float:left}
+    table, thead, tbody, th, td, tr{display:block}
+    /* Hide table headers (but not display:none;, for accessibility) */
+    thead tr{position:absolute;top:-9999px;left:-9999px}
+    tr{border:1px solid #ccc}
+    /* Behave  like a "row" */
+    td{border:none;border-bottom:1px solid #eee;position:relative;padding-left:50%;max-width:100% !important}
+    td:before{width:50%;padding-right:10px;float:left;font-weight:bold;min-height:35px}
+    .panel{float:left;width:100%}
+    .table-striped>tbody>tr:nth-of-type(odd){background-color:#eee}
+    #materials .column-id{max-width:100%}
+    .table>tbody>tr>td{min-height:35px}
+    /* Label the data */
+    td.column-action:before{content:"Action";text-align:left}	
+    td.column-type:before{content:"Type"}
+    td.column-description:before{content:"Description"}
+    td.column-date_created:before{content:"Date Created"}
+    td.column-city:before{content:"City"}
+    td.column-title:before{content:"Title"}
+    td.column-url:before{content:"URL"}
+    td.column-phone:before{content:"Phone"}
+    td.column-message:before{content:"Message"}
+    td.column-value:before{content:"Value"}
+    td.column-material_description:before{content:"Description"}
+    td.column-id:before{content:"Id"}
+    td.column-created_at:before{content:"Created"}
+    td.column-updated_at:before{content:"Updated"}
+    .permission-panel .col-sm-12{display:none}
+    .permission-panel:after{content:"For safety reasons there can't be any changes inside permission session from mobile display!"}
+    .col-xs-3, .col-xs-9{width:100%}
+    .info-operation-details td:nth-child(2n+1){width:100%}
+    .info-order td{width:100% !important}
+    .info-operation td{width:100% !important}
+    .op-form-new td, .op-form-new th{padding-left:50%}
+    .op-form-new td:before, .operation-components td:before, .paperwork-operations td:before{position:absolute;left:3px}
+    .operation-components td, .operation-components th{padding-left:50%}
+    .paperwork-operations{width:100%}
+    .info-operation-details-container h3{padding-top:10px;float:left;font-weight:bold}
+    td.column-action{text-align:right}
+    .btn-info.pull-right{float:left !important}
+    td.column-action .btn-info{margin-bottom:0;padding:0 15px !important}
+    .paperwork-operations td{padding-left:50% !important;min-height:35px}
+    .paperwork-operations tr:nth-child(odd){background:#ddd}
+    .info-operation-details{width:100%;margin-bottom:5px}
+    .column-required_qty{font-size:90%}
+    .column-unit{font-size:90%}
+    .column-material_id input{width:100%}
+    .column-material_supplier input{width:100%}
+    td.column-action:before{width:30%}
+    .column-allocatedto:before{content:"Allocated to"}
+    .column-confirmedby:before{content:"Confirmed by"}
+    .btn-sample-upload{padding:5px !important}
+    .column-name:before{content:"Name"}
+    .column-logo:before{content:"Logo"}
+    .column-leader_id:before{content:"Leader"}
+    .column-action .btn-info{margin-bottom:5px !important}
+    .column-username:before{content:"User"}
+    .column-member:before{content:"Member"}
+    .column-leader:before{content:"Leader"}
+    .column-group:before{content:"Group"}
+    .column-role_id:before{content:"Role"}
+    .column-email:before{content:"Email";width:30%}
+    .panel-myacc .panel-body{padding:2px}
+    .panel-myacc .panel-body .col-sm-12{width:100%;padding:0}
+    .panel-myacc .panel-body .col-xs-9{padding:0}
+    .panel-myacc .panel-body .col-xs-9 .row{margin:0}
+    .panel-myacc .panel-body .col-xs-9 .row td:first-child{width:30% !important}
+    .column-start_date:before{content:"Start Date"}
+    .column-material_nr:before{content:"Material"}
+    .column-qty:before{content:"Quantity"}
+    .column-end_date:before{content:"End Data"}
+    .column-sales:before{content:"Sales"}
+    .column-position:before{content:"Position"}
+    .column-value_standard:before{content:"Value Standard 3"}
+    .column-unit_value:before{content:"Unit Value"}
+    .column-vs3:before{content:"VS3"}
+    .column-percentage:before{content:"Percentage"}
+    .column-deadline:before{content:"End Date"}
+    .pagination{min-width:266px}
+    .column-backup_file:before{content:"Backup File"}
+    .column-upload_file:before{content:"Upload File"}
+    .comments{float:left}
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{color:#fff;font-weight:600}
+}

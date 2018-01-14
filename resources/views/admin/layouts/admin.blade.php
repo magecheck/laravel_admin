@@ -17,6 +17,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{ URL::asset('bootstrap/dist/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/admin.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/responsive-en.css') }}">
     
     <!-- Scripts -->
     <script type="text/javascript" src="{{ URL::asset('js/jquery-1.12.4.min.js') }}"></script>
